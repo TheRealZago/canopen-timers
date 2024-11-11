@@ -32,7 +32,7 @@ A few basic packages are required:
 Initial discovery occurred on Raspbian 10 Buster (kernel 4.19.115), on RPi CM3+ and MCP2515 CAN controllers. Compiler is GCC 8.3.0 armhf. Sources for this system will not be rendered available.
 
 This example has been tested on WSL/Ubuntu 22.04.5 LTS (kernel 5.15.153.1-microsoft-standard-WSL2+) and a PEAK-USB dongle. using GCC 11.4.0 x86_64 and CMake using Ninja as makefile generator.\
-WSL environment has been reconfigured for SocketCAN support using this snippet: https://gist.github.com/yonatanh20/664f07d62eb028db18aa98b00afae5a6.\
+WSL environment has been reconfigured for SocketCAN support using this snippet: https://gist.github.com/yonatanh20/664f07d62eb028db18aa98b00afae5a6 \
 Normal Linux distros should work out-of-the-box, as long as they have the `can-raw` kernel module available.
 
 All systems have been monitored using Vector CANalyzer on the other side of the bus.
